@@ -75,6 +75,8 @@ nav_msgs/Odometry.h
 -
 ratslam_ros/ViewTemplate.h
 -
+ratslam/PCN2.h
+/home/younes/catkin_ws/src/ratslam_ros/src/ratslam/PCN2.h
 graphics/posecell_scene.h
 /home/younes/catkin_ws/src/ratslam_ros/src/graphics/posecell_scene.h
 

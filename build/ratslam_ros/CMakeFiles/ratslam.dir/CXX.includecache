@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+/home/younes/catkin_ws/src/ratslam_ros/src/ratslam/PCN2.cpp
+PCN2.h
+/home/younes/catkin_ws/src/ratslam_ros/src/ratslam/PCN2.h
+
+/home/younes/catkin_ws/src/ratslam_ros/src/ratslam/PCN2.h
+posecell_network.h
+/home/younes/catkin_ws/src/ratslam_ros/src/ratslam/posecell_network.h
+
 /home/younes/catkin_ws/src/ratslam_ros/src/ratslam/posecell_network.cpp
 posecell_network.h
 /home/younes/catkin_ws/src/ratslam_ros/src/ratslam/posecell_network.h

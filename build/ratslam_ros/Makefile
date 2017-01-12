@@ -997,6 +997,30 @@ src/main_vo.cpp.s:
 	cd /home/younes/catkin_ws/build && $(MAKE) -f ratslam_ros/CMakeFiles/ratslam_vo.dir/build.make ratslam_ros/CMakeFiles/ratslam_vo.dir/src/main_vo.cpp.s
 .PHONY : src/main_vo.cpp.s
 
+src/ratslam/PCN2.o: src/ratslam/PCN2.cpp.o
+.PHONY : src/ratslam/PCN2.o
+
+# target to build an object file
+src/ratslam/PCN2.cpp.o:
+	cd /home/younes/catkin_ws/build && $(MAKE) -f ratslam_ros/CMakeFiles/ratslam.dir/build.make ratslam_ros/CMakeFiles/ratslam.dir/src/ratslam/PCN2.cpp.o
+.PHONY : src/ratslam/PCN2.cpp.o
+
+src/ratslam/PCN2.i: src/ratslam/PCN2.cpp.i
+.PHONY : src/ratslam/PCN2.i
+
+# target to preprocess a source file
+src/ratslam/PCN2.cpp.i:
+	cd /home/younes/catkin_ws/build && $(MAKE) -f ratslam_ros/CMakeFiles/ratslam.dir/build.make ratslam_ros/CMakeFiles/ratslam.dir/src/ratslam/PCN2.cpp.i
+.PHONY : src/ratslam/PCN2.cpp.i
+
+src/ratslam/PCN2.s: src/ratslam/PCN2.cpp.s
+.PHONY : src/ratslam/PCN2.s
+
+# target to generate assembly for a file
+src/ratslam/PCN2.cpp.s:
+	cd /home/younes/catkin_ws/build && $(MAKE) -f ratslam_ros/CMakeFiles/ratslam.dir/build.make ratslam_ros/CMakeFiles/ratslam.dir/src/ratslam/PCN2.cpp.s
+.PHONY : src/ratslam/PCN2.cpp.s
+
 src/ratslam/experience_map.o: src/ratslam/experience_map.cpp.o
 .PHONY : src/ratslam/experience_map.o
 
@@ -1173,6 +1197,9 @@ help:
 	@echo "... src/main_vo.o"
 	@echo "... src/main_vo.i"
 	@echo "... src/main_vo.s"
+	@echo "... src/ratslam/PCN2.o"
+	@echo "... src/ratslam/PCN2.i"
+	@echo "... src/ratslam/PCN2.s"
 	@echo "... src/ratslam/experience_map.o"
 	@echo "... src/ratslam/experience_map.i"
 	@echo "... src/ratslam/experience_map.s"

@@ -141,12 +141,36 @@ ratslam_ros/CMakeFiles/ratslam.dir/src/ratslam/visual_odometry.cpp.o.provides: r
 
 ratslam_ros/CMakeFiles/ratslam.dir/src/ratslam/visual_odometry.cpp.o.provides.build: ratslam_ros/CMakeFiles/ratslam.dir/src/ratslam/visual_odometry.cpp.o
 
+ratslam_ros/CMakeFiles/ratslam.dir/src/ratslam/PCN2.cpp.o: ratslam_ros/CMakeFiles/ratslam.dir/flags.make
+ratslam_ros/CMakeFiles/ratslam.dir/src/ratslam/PCN2.cpp.o: /home/younes/catkin_ws/src/ratslam_ros/src/ratslam/PCN2.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/younes/catkin_ws/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ratslam_ros/CMakeFiles/ratslam.dir/src/ratslam/PCN2.cpp.o"
+	cd /home/younes/catkin_ws/build/ratslam_ros && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ratslam.dir/src/ratslam/PCN2.cpp.o -c /home/younes/catkin_ws/src/ratslam_ros/src/ratslam/PCN2.cpp
+
+ratslam_ros/CMakeFiles/ratslam.dir/src/ratslam/PCN2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ratslam.dir/src/ratslam/PCN2.cpp.i"
+	cd /home/younes/catkin_ws/build/ratslam_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/younes/catkin_ws/src/ratslam_ros/src/ratslam/PCN2.cpp > CMakeFiles/ratslam.dir/src/ratslam/PCN2.cpp.i
+
+ratslam_ros/CMakeFiles/ratslam.dir/src/ratslam/PCN2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ratslam.dir/src/ratslam/PCN2.cpp.s"
+	cd /home/younes/catkin_ws/build/ratslam_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/younes/catkin_ws/src/ratslam_ros/src/ratslam/PCN2.cpp -o CMakeFiles/ratslam.dir/src/ratslam/PCN2.cpp.s
+
+ratslam_ros/CMakeFiles/ratslam.dir/src/ratslam/PCN2.cpp.o.requires:
+.PHONY : ratslam_ros/CMakeFiles/ratslam.dir/src/ratslam/PCN2.cpp.o.requires
+
+ratslam_ros/CMakeFiles/ratslam.dir/src/ratslam/PCN2.cpp.o.provides: ratslam_ros/CMakeFiles/ratslam.dir/src/ratslam/PCN2.cpp.o.requires
+	$(MAKE) -f ratslam_ros/CMakeFiles/ratslam.dir/build.make ratslam_ros/CMakeFiles/ratslam.dir/src/ratslam/PCN2.cpp.o.provides.build
+.PHONY : ratslam_ros/CMakeFiles/ratslam.dir/src/ratslam/PCN2.cpp.o.provides
+
+ratslam_ros/CMakeFiles/ratslam.dir/src/ratslam/PCN2.cpp.o.provides.build: ratslam_ros/CMakeFiles/ratslam.dir/src/ratslam/PCN2.cpp.o
+
 # Object files for target ratslam
 ratslam_OBJECTS = \
 "CMakeFiles/ratslam.dir/src/ratslam/experience_map.cpp.o" \
 "CMakeFiles/ratslam.dir/src/ratslam/posecell_network.cpp.o" \
 "CMakeFiles/ratslam.dir/src/ratslam/local_view_match.cpp.o" \
-"CMakeFiles/ratslam.dir/src/ratslam/visual_odometry.cpp.o"
+"CMakeFiles/ratslam.dir/src/ratslam/visual_odometry.cpp.o" \
+"CMakeFiles/ratslam.dir/src/ratslam/PCN2.cpp.o"
 
 # External object files for target ratslam
 ratslam_EXTERNAL_OBJECTS =
@@ -155,6 +179,7 @@ ratslam_EXTERNAL_OBJECTS =
 /home/younes/catkin_ws/devel/lib/libratslam.so: ratslam_ros/CMakeFiles/ratslam.dir/src/ratslam/posecell_network.cpp.o
 /home/younes/catkin_ws/devel/lib/libratslam.so: ratslam_ros/CMakeFiles/ratslam.dir/src/ratslam/local_view_match.cpp.o
 /home/younes/catkin_ws/devel/lib/libratslam.so: ratslam_ros/CMakeFiles/ratslam.dir/src/ratslam/visual_odometry.cpp.o
+/home/younes/catkin_ws/devel/lib/libratslam.so: ratslam_ros/CMakeFiles/ratslam.dir/src/ratslam/PCN2.cpp.o
 /home/younes/catkin_ws/devel/lib/libratslam.so: ratslam_ros/CMakeFiles/ratslam.dir/build.make
 /home/younes/catkin_ws/devel/lib/libratslam.so: ratslam_ros/CMakeFiles/ratslam.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library /home/younes/catkin_ws/devel/lib/libratslam.so"
@@ -168,6 +193,7 @@ ratslam_ros/CMakeFiles/ratslam.dir/requires: ratslam_ros/CMakeFiles/ratslam.dir/
 ratslam_ros/CMakeFiles/ratslam.dir/requires: ratslam_ros/CMakeFiles/ratslam.dir/src/ratslam/posecell_network.cpp.o.requires
 ratslam_ros/CMakeFiles/ratslam.dir/requires: ratslam_ros/CMakeFiles/ratslam.dir/src/ratslam/local_view_match.cpp.o.requires
 ratslam_ros/CMakeFiles/ratslam.dir/requires: ratslam_ros/CMakeFiles/ratslam.dir/src/ratslam/visual_odometry.cpp.o.requires
+ratslam_ros/CMakeFiles/ratslam.dir/requires: ratslam_ros/CMakeFiles/ratslam.dir/src/ratslam/PCN2.cpp.o.requires
 .PHONY : ratslam_ros/CMakeFiles/ratslam.dir/requires
 
 ratslam_ros/CMakeFiles/ratslam.dir/clean:
